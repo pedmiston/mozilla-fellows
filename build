@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+pandoc -o resume.pdf resume.md
+pandoc -o cover_letter.pdf cover_letter.md
