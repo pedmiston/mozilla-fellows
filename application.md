@@ -12,7 +12,7 @@ I study cultural evolution, specifically the evolution of cultural products like
 
 # Describe to us your current research team.
 
-I work primarily with Dr. Gary Lupyan in his lab in the Psychology Department at the University of Wisconsin-Madison. The [Telephone project](http://github.com/pedmiston/telephone-app) is in collaboration with Marcus Perlman. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition.
+I work primarily with Dr. Gary Lupyan in his lab in the Psychology Department at the University of Wisconsin-Madison. The [Telephone project](http://github.com/lupyanlab/telephone-app) is in collaboration with Dr. Marcus Perlman. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition.
 
 # Describe to us how open science advances your research.
 
