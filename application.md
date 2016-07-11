@@ -8,7 +8,7 @@ wannabe evolutionary biology
 
 # What is your research focus?
 
-I study cultural evolution, specifically the evolution of cultural products like language. Why is language adaptive for humans from a cognitive/behavioral perspective? What does language afford that nonverbal means of communication do not? Language is the bedrock of culture, providing the best data we have to study the evolution of cultural products. Right now I'm studying Wikipedia as a model organism for the study of cultural evolution.
+I study cultural evolution, specifically the evolution of cultural products like language. Why is language adaptive and what does it afford that nonverbal means of communication do not? Right now I'm studying how the products of human collaboration (e.g., Wikipedia articles) evolve over time.
 
 # Describe to us your current research team.
 
@@ -16,15 +16,11 @@ I work primarily with Dr. Gary Lupyan in his lab in the Psychology Department at
 
 # Describe to us how open science advances your research.
 
-Engaging in open science practices makes my own research better: more
-reproducible, more replicable, and more reuseable. Open science is
-a fundamental part of scientific progress. In its purest form, I believe open
-science is the ability to automate an experiment and the conclusions drawn from
-it with code.
+Open science makes my own research better: more reproducible, more replicable, and more reuseable. Open science is critical for scientific progress in the digital world, where research methods inevitably involve computers. In it's simplest form, I believe open science is the ability to automate the running of an experiment and drawing conclusions from the data with code. Code is the best way scientists have of helping each other out. Writing and sharing code is necessary, but not sufficient for open science, the remaining piece being the attitude that engaging in open science is the best way to discover truth.
 
 # Are you leading any projects related to open science?
 
-From the perspective of cultural evolution and cognitive science, I'm interested in why open source works, and the ways in which the products of open collaborations change as a function of iteration. As an advocate for open science practices, I conduct my research in a way that others can learn from, and have given talks and tutorials on how to use open source tools for open science.
+I'm interested in what makes open communities work, and one specific hypothesis I have is that a version control system is helpful in allowing the products of open collaboration to evolve progressively and without central control. For example, I have argued that the success of Wikipedia is in part due to the ability of editors to revert articles to previous versions. As it relates to open scientific collaboration, the most important feature of version control systems may be the ability to split a single project into multiple branches, allowing each to evolve independently and in response to different selection pressures.
 
 # How do you see Mozilla advancing your work?
 
