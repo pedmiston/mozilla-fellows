@@ -14,7 +14,7 @@ Education
 2013-2018 (expected)
 :   **PhD, Psychology**; University of Wisconsin-Madison
 
-    Concentration in Cognitive and Cognitive Neuroscience. Advised by Dr. Gary Lupyan.
+    Concentration in Cognitive and Cognitive Neuroscience.
 
 2012-2013
 :   **MS, Psychology**; University of Wisconsin-Madison

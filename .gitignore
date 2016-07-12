@@ -1,7 +1,6 @@
 # compiled
 *.pdf
 *.log
-*.tex
 !style/*.tex
 *.tuc
 

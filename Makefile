@@ -4,17 +4,17 @@ fig: venn.png
 venn.png: fig/venn/index.html
 	cd fig/venn && ./d3printer
 
-pdf: resume.pdf
+pdf: resume.pdf style/style_chmduquesne.tex
 resume.pdf: resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
+	pandoc --standalone --template style/style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
 	-o resume.tex resume.md; \
 	context resume.tex
 
 html: resume.html
-resume.html: style_chmduquesne.css resume.md
-	pandoc --standalone -H style_chmduquesne.css \
+resume.html: resume.md style/style_chmduquesne.css
+	pandoc --standalone -H style/style_chmduquesne.css \
         --from markdown --to html \
         -o resume.html resume.md
 
@@ -27,10 +27,10 @@ resume.rtf: resume.md
 	pandoc -s -S resume.md -o resume.rtf
 
 clean:
-	rm resume.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
-	rm resume.pdf
-	rm resume.docx
-	rm resume.rtf
+	rm -f resume.html
+	rm -f resume.tex
+	rm -f resume.tuc
+	rm -f resume.log
+	rm -f resume.pdf
+	rm -f resume.docx
+	rm -f resume.rtf
