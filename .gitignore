@@ -1,8 +1,10 @@
 # compiled
 *.pdf
 *.log
-!style/*.tex
+*.tex
 *.tuc
+
+!style/resume.tex
 
 # figs
 *.png
