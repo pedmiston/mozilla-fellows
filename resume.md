@@ -26,19 +26,19 @@
 
 ## Published research
 
-Edmiston & Lupyan (in press). Visual interference disrupts visual knowledge. _Journal of Memory and Language_. [http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf)
+Edmiston & Lupyan (in press). Visual interference disrupts visual knowledge. _Journal of Memory and Language_. [[pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf)]
 
 - Visual distraction makes it harder to think about what things look like.
 - Each experiment is available as a git repository[^orientation][^property], including code used to run the experiment, the raw data, and our analyses.
 - In the second experiment, we also report the results of a self-administered **replication effort**. It wasn't fun.
 
-Edmiston, Perlman, & Lupyan (2016). The fidelity of iterated vocal imitation. _The Evolution of Language: Proceedings of the 11th International Conference_. [http://evolang.org/neworleans/papers/189.html](http://evolang.org/neworleans/papers/189.html)
+Edmiston, Perlman, & Lupyan (2016). The fidelity of iterated vocal imitation. _The Evolution of Language: Proceedings of the 11th International Conference_. [[html](http://evolang.org/neworleans/papers/189.html)]
 
 - People played a giant game of telephone online to test a hypothesis about the evolution of language.
 - My conference talk was the topic of a brief online article[^article].
 - Several repos are available: for constructing the web app[^django], deploying the infrastructure[^ansible], and conducting the analyses[^pilot][^current].
 
-Edmiston & Lupyan (2015). What makes words special? Words as unmotivated cues. _Cognition_, 143, 93-100. [http://sapir.psych.wisc.edu/papers/edmiston_lupyan_2015_motivated.pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_2015_motivated.pdf)
+Edmiston & Lupyan (2015). What makes words special? Words as unmotivated cues. _Cognition_, 143, 93-100. [[pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_2015_motivated.pdf)]
 
 - If you are ever interested in the ways dog barks differ from words like "dog", this is the paper for you.
 
@@ -48,7 +48,7 @@ I use **python** for running in-person behavioral experiments with **psychopy**,
 
 I use **R** for data visualization and regression modeling, including hierarchical linear regression using the **lme4** package. I've given talks at the local R users group on hierarchical linear modeling[^linear] and am giving one soon on design patterns for data science projects[^design]. I use a lot of packages in the Hadleyverse, primarily **ggplot2** and **dplyr**.
 
-I work best at the **command line**, and I embrace the Unix philosophy that programs should do one thing well. I write tests, but not enough. I also write a lot in **plaintext**, and use tools like **pandoc**, **knitr**, and **Sphinx** for creating dynamic documents and presentations.
+I work best at the **command line**, and I embrace the Unix philosophy that programs should do one thing well. I write tests, but not enough. I also write in **plaintext**, and use tools like **pandoc**, **knitr**, and **Sphinx** for creating dynamic documents and presentations.
 
 [^orientation]: [github.com/lupyanlab/orientation-discrimination](http://github.com/lupyanlab/orientation-discrimination)
 [^property]: [github.com/lupyanlab/property-verification](http://github.com/lupyanlab/property-verification)
