@@ -1,30 +1,33 @@
-# Pierce Edmiston
+Pierce Edmiston
+===============
 
-<pedmiston@wisc.edu>  
-[github.com/pedmiston](http://github.com/pedmiston)  
-[osf.io/dsu3k](http://osf.io/dsu3k)
+----
 
+> Cognitive science, data science, open science.\
 > The science of change.
 
-## Education
+----
 
-### PhD (anticipated 2018)
+Education
+---------
 
-- Psychology Department at the University of Wisconsin-Madison
-- Concentration in Cognitive and Cognitive Neuroscience
-- Advised by Dr. Gary Lupyan
+2013-2018 (expected)
+:   **PhD, Psychology**; University of Wisconsin-Madison
 
-### Master of Science in Psychology (2013)
+    Concentration in Cognitive and Cognitive Neuroscience. Advised by Dr. Gary Lupyan.
 
-- University of Wisconsin-Madison
-- Thesis work was published as "What makes words special? Words as unmotivated cues" (Edmiston & Lupyan, 2015)
+2012-2013
+:   **MS, Psychology**; University of Wisconsin-Madison
 
-### Bachelor of Arts in an Individualized Major (2012)
+    Thesis work published as "What makes words special? Words as unmotivated cues" (Edmiston & Lupyan, 2015).
 
-- St. John's University, Collegeville, Minnesota
-- Honors: _summa cum laude_, Phi Beta Kappa
+2008-2012
+:   **BA, Individualized (Cognitive Science)**; St. John's University (Collegeville, MN)
 
-## Published research
+    Honors: _summa cum laude_, Phi Beta Kappa
+
+Published research
+------------------
 
 Edmiston & Lupyan (in press). Visual interference disrupts visual knowledge. _Journal of Memory and Language_. [[pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf)]
 
@@ -42,13 +45,15 @@ Edmiston & Lupyan (2015). What makes words special? Words as unmotivated cues. _
 
 - If you are ever interested in the ways dog barks differ from words like "dog", this is the paper for you.
 
-## Technical skills
+Technical skills
+----------------
 
-I use **python** for running in-person behavioral experiments with **psychopy**, building web apps with **Django** to run experiments online, and performing lots (and lots) of data scripting and pipelining with **pandas**.
+Programming languages
+:   I use **python** for running in-person behavioral experiments with **psychopy**, building web apps with **Django** to run experiments online, and performing lots (and lots) of data scripting and pipelining with **pandas**.
 
-I use **R** for data visualization and regression modeling, including hierarchical linear regression using the **lme4** package. I've given talks at the local R users group on hierarchical linear modeling[^linear] and am giving one soon on design patterns for data science projects[^design]. I use a lot of packages in the Hadleyverse, primarily **ggplot2** and **dplyr**.
+:   I use **R** for data visualization and regression modeling, including hierarchical linear regression using the **lme4** package. I've given talks at the local R users group on hierarchical linear modeling[^linear] and am giving one soon on design patterns for data science projects[^design]. I use a lot of packages in the Hadleyverse, primarily **ggplot2** and **dplyr**.
 
-I work best at the **command line**, and I embrace the Unix philosophy that programs should do one thing well. I write tests, but not enough. I also write in **plaintext**, and use tools like **pandoc**, **knitr**, and **Sphinx** for creating dynamic documents and presentations.
+:   I work best at the **command line**, and I embrace the Unix philosophy that programs should do one thing well. I write tests, but not enough. I also write in **plaintext**, and use tools like **pandoc**, **knitr**, and **Sphinx** for creating dynamic documents and presentations.
 
 [^orientation]: [github.com/lupyanlab/orientation-discrimination](http://github.com/lupyanlab/orientation-discrimination)
 [^property]: [github.com/lupyanlab/property-verification](http://github.com/lupyanlab/property-verification)
@@ -59,3 +64,5 @@ I work best at the **command line**, and I embrace the Unix philosophy that prog
 [^article]: Press for telephone project: [www.sciencemag.org/news/2016/03/buzz-thwack-how-sounds-become-words](http://www.sciencemag.org/news/2016/03/buzz-thwack-how-sounds-become-words)
 [^linear]: R users group presentation on visualizing the results of hierarchical linear models: [**github.com/pedmiston/visualizing-lmer**](https://github.com/pedmiston/visualizing-lmer)
 [^design]: Upcoming R users group presentation on design patterns in data science projects in R: [**github.com/pedmiston/data-design-patterns**](https://github.com/pedmiston/data-design-patterns)
+
+> <pedmiston@wisc.edu>

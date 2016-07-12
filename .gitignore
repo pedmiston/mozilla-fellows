@@ -1,7 +1,14 @@
 # compiled
 *.pdf
+*.log
+*.tex
+!style/*.tex
+*.tuc
 
-# third-party 
+# figs
+*.png
+
+# third-party
 node_modules/
 
 # os
