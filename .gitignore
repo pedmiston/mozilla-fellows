@@ -1,2 +1,5 @@
 # compiled
 *.pdf
+
+# third-party 
+node_modules/
