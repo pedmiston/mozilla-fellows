@@ -3,13 +3,45 @@
     <head>
         <meta charset="utf-8">
         <title>Evolution Venn</title>
+        <style>
+ul.container {
+    list-style: none;
+    padding-start: 0px;
+    margin-before: 0px;
+    margin-after: 0px;
+}
+
+ul.float {
+    overflow: auto;
+}
+ul.float > li {
+    float: left;
+}
+.centered > ul.float > li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+ul.float.even > li {
+    width: 20%;
+}
+        </style>
     </head>
     <body>
         <script src="node_modules/d3/d3.js"></script>
         <script src="node_modules/venn.js/venn.js"></script>
 
-        <div id="venn">
-        </div>
+        <ul class="centered float container">
+          <li>
+            <div id="cog"></div>
+          </li>
+          <li>
+            <div id="data"></div>
+          </li>
+          <li>
+            <div id="open"></div>
+          </li>
+
+        </ul>
 
         <script>
 var sets = [ {sets: ['cultural'], size: 12, label: "Cultural"},
@@ -20,9 +52,13 @@ var sets = [ {sets: ['cultural'], size: 12, label: "Cultural"},
              {sets: ['genetic', 'computational'], size: 4},
              {sets: ['genetic', 'cultural', 'computational'], size: 2, label: "Adaptive Systems"} ];
 
-var chart = venn.VennDiagram();
+var chart = venn.VennDiagram()
+                .width(200)
+                .height(200);
 
-d3.select("#venn").datum(sets).call(chart);
+d3.select("#cog").datum(sets).call(chart);
+d3.select("#data").datum(sets).call(chart);
+d3.select("#open").datum(sets).call(chart);
         </script>
     </body>
 </html>
