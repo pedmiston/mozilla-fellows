@@ -1,14 +1,14 @@
 # What research fields are you in?
 
-data science
-cognitive science
 **cognitive psychology**
+cognitive science
+data science
 computational social science?
-wannabe evolutionary biology
+evolutionary theory
 
 # What is your research focus?
 
-I study cultural evolution, specifically the evolution of cultural products like language. Why is language adaptive and what does it afford that nonverbal means of communication do not? Right now I'm studying how the products of human collaboration (e.g., Wikipedia articles) evolve over time.
+I'm trying to learn something about cultural evolution by using open collaborations (e.g., Wikipedia) as model organisms. I'm interested in separating evolutionary change that is shaped by selection pressures from random change. Do Wikipedia editors select for quality as articles accumulate edits? Can selection guarantee incremental progress in open collaborations?
 
 # Describe to us your current research team.
 
