@@ -1,20 +1,16 @@
-Project ideas
-=============
+# Project ideas
 
-For sprints and beyond. **Warning** I don't know if these are good ideas.
+For sprints and beyond. **Warning**: I don't know if these are good ideas.
 
-wit is git for wiki
--------------------
+## wit is git for wiki
 
-MediaWiki has a version control system built into it but personally I like the
-ability to edit wiki pages offline, in the editing environment of my choice. Of
-course, once a page is requested, it becomes out of date, and merge conflicts
+MediaWiki has a version control system built into it but some people may prefer to edit wiki pages offline. Once a page is requested, it becomes out of date, and merge conflicts
 due to offline page editing are common. What is needed is a way to compare
 versions and resolve diffs on the command line: a command line tool like git
-but for MediaWiki pages. Call it `wit`.
+for MediaWiki pages. Call it `wit`.
 
 In addition to taking wiki page editing out of the browser, `wit` also gives
-wiki pages the benefit of parallel and distributed development. In the case of
+wiki pages the benefit of parallel and forking development. In the case of
 Wikipedia, articles are written in a linear sequence of edits, but writing encyclopedia articles is
 far from the only reason to utilize the MediaWiki software. In some contexts,
 parallel development in different branches and subsequent merging of versions
@@ -23,8 +19,7 @@ distributed development as easily as a version control system like `git`, where
 branching and merging are common operations. `wit` simply adds the features of
 `git` to the existing in-browser version control features of MediaWiki applications.
 
-Code tree 2.0
---------------
+## Code tree 2.0
 
 A few years ago I developed an idea for a webapp dedicated to helping people
 learn to code. The site itself wouldn't contain any lessons or tutorials,
@@ -37,7 +32,7 @@ like [Annotator](http://annotatorjs.org/). If you put the two together, you're
 no longer just annotating single webpages, but links between webpages. The
 benefit is that learners can follow the lessons laid out by a single tutor or
 they can follow links left by other users. Courses can inherit lessons from other courses, and this interaction allows the branching of individual learning paths. Individual learners can also add links that they found useful, if none of the available links meets their requirements. With these basic
-features in place, open courses are freed to evolve as trees of lessons.
+features in place, open courses are free to evolve on the open web.
 
 We need more reuse on the internet when it comes to helping each other learn to
 code, but also when it comes to debugging. In my experience, real-world coding
@@ -47,3 +42,13 @@ debugging in a graph database with annotation features, I've effectively
 documented my bug fix in a way that others may be able to learn from, with
 minimal effort (all that would be required is copying and pasting the links
 found useful).
+
+## Merge-a-thon
+
+It's a bad name. But some alternative to hackathons, intended to be more inviting. There is still competition in merge-a-thons, but it isn't head-to-head or judged.
+
+
+
+I like the idea of distributed problem solving.
+
+It's different than delegated problem solving, where problems are divided. In distributed problem solving, everyone is working on the same
