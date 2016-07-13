@@ -1,10 +1,12 @@
-all: fig pdf
+all: cover resume
 
-fig: venn.png
+cover: venn.png cover_letter.pdf
 venn.png: fig/venn/index.html
 	cd fig/venn && ./d3printer
+cover_letter.pdf: cover_letter.md fig/venn.png
+	pandoc --standalone --from markdown -o cover_letter.pdf cover_letter.md
 
-pdf: resume.pdf style/resume.tex
+resume: resume.pdf style/resume.tex
 resume.pdf: resume.md
 	pandoc --standalone --template style/resume.tex \
 	--from markdown --to context \
@@ -13,7 +15,6 @@ resume.pdf: resume.md
 	context resume.tex
 
 clean:
-	rm -f resume.tex
-	rm -f resume.log
-	rm -f resume.tuc
-	rm -f resume.pdf
+	rm -f *.tex
+	rm -f *.log
+	rm -f *.tuc
