@@ -3,10 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Evolution Venn</title>
+        <style>
+text {
+  font-family: "Helvetica";
+}
+        </style>
     </head>
     <body>
         <script src="node_modules/d3/d3.js"></script>
         <script src="node_modules/venn.js/venn.js"></script>
+        <script src="node_modules/colorbrewer/colorbrewer.js"></script>
 
         <div id="venn">
         </div>
@@ -20,7 +26,12 @@ var sets = [ {sets: ['cognitive'], size: 12, label: "Cognitive science"},
              {sets: ['cognitive', 'open'], size: 4},
              {sets: ['cognitive', 'data', 'open'], size: 2} ];
 
-var chart = venn.VennDiagram();
+var colorScheme = d3.scale.ordinal()
+  .range(colorbrewer.Set2[3]);
+
+var chart = venn.VennDiagram()
+  .colours(colorScheme)
+  .fontSize(20);
 
 d3.select("#venn").datum(sets).call(chart);
         </script>
