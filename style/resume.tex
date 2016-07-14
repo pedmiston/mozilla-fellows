@@ -11,9 +11,6 @@
   \enableregime[utf-8]
   \setupcolors[state=start]
 \stopmode
-$if(mainlang)$
-\mainlanguage[$mainlang$]
-$endif$
 
 \setupcolor[hex]
 \definecolor[titlegrey][h=8da0cb]
@@ -29,30 +26,23 @@ $endif$
                  topspace=5mm, bottomspace=5mm,
                  header=0mm, footer=0mm]
 
-%\setuppagenumbering[location={footer,center}]
-
 \setupbodyfont[11pt, helvetica]
 
 \setupwhitespace[medium]
-
-\setupblackrules[width=31mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right]
 \setuphead[subsubsection][style=\bf]
-
-$if(number-sections)$
-$else$
 \setuphead[chapter, section, subsection, subsubsection][number=no]
-$endif$
+
 
 %\setupdescriptions[width=10mm]
 
 \definedescription
   [description]
   [headstyle=bold, style=normal,
-   location=hanging, width=18mm, distance=14mm, margin=0cm]
+   location=hanging, width=20mm, distance=14mm, margin=0cm]
 
 \setupitemize[autointro, packed]    % prevent orphan list intro
 \setupitemize[indentnext=no]

@@ -1,70 +1,66 @@
 Pierce Edmiston
 ===============
 
-----
-
-> Cognitive science, data science, open science.\
-> The science of change.
+> The science of change  
 
 ----
 
 Education
 ---------
 
-2013-2018 (expected)
-:   **PhD, Psychology**; University of Wisconsin-Madison
-
-    Concentration in Cognitive and Cognitive Neuroscience.
+2013-
+:   **PhD, Psychology**. University of Wisconsin-Madison. Anticipated 2018.
 
 2012-2013
-:   **MS, Psychology**; University of Wisconsin-Madison
-
-    Advised by Dr. Gary Lupyan.
+:   **MS, Psychology**. University of Wisconsin-Madison.
 
 2008-2012
-:   **BA, Individualized (Cognitive Science)**; St. John's University (Collegeville, MN)
+:   **BA, Individualized (Cognitive Science)**. St. John's University, Collegeville, MN. Honors: _summa cum laude_, Phi Beta Kappa
 
-    Honors: _summa cum laude_, Phi Beta Kappa
+Publications
+------------
 
-Published research
-------------------
+* **Edmiston & Lupyan (accepted)**. Visual interference disrupts visual knowledge. _Journal of Memory and Language_.
 
-* **Edmiston & Lupyan (in press)**. Visual interference disrupts visual knowledge. _Journal of Memory and Language_. [pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf)
+    We found that visual distraction makes it harder to think about what things look like. [paper][visual], [exp1][orientation], [exp2][property].
 
-Visual distraction makes it harder to think about what things look like. Each experiment [$^1$][orientation] [$^2$][property] is available as a git repository, including code used to run the experiment, the raw data, and our analyses. In the second experiment, we also report the results of a self-administered **replication effort**.
-
+[visual]: http://sapir.psych.wisc.edu/papers/edmiston_lupyan_JML.pdf
 [orientation]: http://github.com/lupyanlab/orientation-discrimination
 [property]: http://github.com/lupyanlab/property-verification
 
-* **Edmiston, Perlman, & Lupyan (2016)**. The fidelity of iterated vocal imitation. _The Evolution of Language: Proceedings of the 11th International Conference_. [html](http://evolang.org/neworleans/papers/189.html)
+* **Edmiston, Perlman, & Lupyan (2016)**. The fidelity of iterated vocal imitation. _The Evolution of Language: Proceedings of the 11th International Conference_.
 
-People played a giant game of telephone online to test a hypothesis about the evolution of language. My conference talk was the topic of a brief online [article][article]. Several repos are available: for constructing the [web app][django], deploying the [infrastructure][ansible], and conducting the [analyses][current].
+    We had people play a giant game of telephone online to test a hypothesis about the evolution of language. [abstract][abstract], [talk][talk], [press][press].
 
-[article]: http://www.sciencemag.org/news/2016/03/buzz-thwack-how-sounds-become-words
+[abstract]: http://evolang.org/neworleans/papers/189.html
+[talk]: http://sapir.psych.wisc.edu/evolang/fidelity.html
+[press]: http://www.sciencemag.org/news/2016/03/buzz-thwack-how-sounds-become-words
 [django]: http://github.com/lupyanlab/telephone
 [ansible]: http://github.com/lupyanlab/telephone-app
-[current]: https://github.com/lupyanlab/wordsintransition
+[analyses]: https://github.com/lupyanlab/wordsintransition
 
-* **Edmiston & Lupyan (2015)**. What makes words special? Words as unmotivated cues. _Cognition_, 143, 93-100. [pdf](http://sapir.psych.wisc.edu/papers/edmiston_lupyan_2015_motivated.pdf)
+* **Edmiston & Lupyan (2015)**. What makes words special? Words as unmotivated cues. _Cognition_, 143, 93-100.
+
+    We tested some of the ways language is unique and advantageous compared to nonverbal forms of communication. [paper][motivated], [materials][stimuli].
+
+[motivated]: http://sapir.psych.wisc.edu/papers/edmiston_lupyan_2015_motivated.pdf)
+[stimuli]: http://sapir.psych.wisc.edu/stimuli/
 
 Technical skills
 ----------------
 
-Programming languages
-:   I use **python** for running in-person behavioral experiments with **psychopy**, building web apps with **Django** to run experiments online, and performing lots (and lots) of data scripting and pipelining with **pandas**.
+python
+:   I use **python** to run behavioral experiments in-person with **psychopy** and online by building web apps with **Django**. For research duct tape, I use **pandas**.
 
-:   I use **R** for data visualization and regression modeling, including hierarchical linear regression using the **lme4** package. I've given talks at the local R users group on hierarchical linear modeling[^linear] and am giving one soon on design patterns for data science projects[^design]. I use a lot of packages in the Hadleyverse, primarily **ggplot2** and **dplyr**.
+R
+:   I use **R** for data visualization and regression modeling, including hierarchical linear regression with **lme4**. I use a lot of packages in the Hadleyverse, primarily **dplyr** and **ggplot2**.
 
-:   I work best at the **command line**, and I embrace the Unix philosophy that programs should do one thing well. I write tests, but not enough. I also write in **plaintext**, and use tools like **pandoc**, **knitr**, and **Sphinx** for creating dynamic documents and presentations.
+command line
+:  I work best at the **command line** with **git** and Unix tools that "do one thing well".
 
+plaintext
+:  I write in **plaintext** and use tools like **pandoc**, **knitr**, and **Spinx** for dynamic reporting.
 
-
-
-[^django]: Web app for playing the children's game of telephone as an experiment, built with Django and D3.js: [**github.com/lupyanlab/telephone**](http://github.com/lupyanlab/telephone)
-[^ansible]: Using ansible to deploy a Django app and run experiments: [**github.com/lupyanlab/telephone-app**](http://github.com/lupyanlab/telephone-app)
-[^pilot]: Results of pilot experiment run using the telephone app: [**github.com/lupyanlab/fidelity**](https://github.com/lupyanlab/fidelity)
-[^current]: Current state of the telephone app experiments: [**github.com/lupyanlab/wordsintransition**](https://github.com/lupyanlab/wordsintransition)
-[^linear]: R users group presentation on visualizing the results of hierarchical linear models: [**github.com/pedmiston/visualizing-lmer**](https://github.com/pedmiston/visualizing-lmer)
-[^design]: Upcoming R users group presentation on design patterns in data science projects in R: [**github.com/pedmiston/data-design-patterns**](https://github.com/pedmiston/data-design-patterns)
+----
 
 > <pedmiston@wisc.edu>

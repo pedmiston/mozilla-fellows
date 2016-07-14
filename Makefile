@@ -6,7 +6,7 @@ venn.png: fig/venn/index.html
 cover_letter.pdf: cover_letter.md fig/venn.png
 	pandoc --standalone --from markdown -o cover_letter.pdf cover_letter.md
 
-resume: resume.pdf style/resume.tex
+resume: style/resume.tex resume.pdf
 resume.pdf: resume.md
 	pandoc --standalone --template style/resume.tex \
 	--from markdown --to context \
