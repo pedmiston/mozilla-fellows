@@ -1,4 +1,4 @@
-![Pierce Edmiston](fig/venn.png)
+![**Figure 1.** Pierce Edmiston](fig/venn.pdf)
 
 A big part of **open science** is helping out other scientists, and I believe code is the most valuable information we can share with one another. I also believe that we can do it better, that we can share what we know more effectively than we do. I'm applying for the Mozilla Science Fellows program because I want to figure out how.
 

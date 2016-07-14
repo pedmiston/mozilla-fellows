@@ -30,8 +30,10 @@ var colorScheme = d3.scale.ordinal()
   .range(colorbrewer.Set2[3]);
 
 var chart = venn.VennDiagram()
+  .width(250)
+  .height(250)
   .colours(colorScheme)
-  .fontSize(20);
+  .fontSize(14);
 
 d3.select("#venn").datum(sets).call(chart);
         </script>

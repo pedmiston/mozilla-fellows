@@ -1,11 +1,11 @@
 var page = require('webpage').create();
 
 page.viewportSize = {
-  width: 900,
-  height: 300
+  width: 250,
+  height: 250
 };
 
 page.open('http://localhost:8000/index.html', function() {
-  page.render('../venn.png');
+  page.render('../venn.pdf');
   phantom.exit();
 });
