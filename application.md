@@ -1,30 +1,30 @@
 # What research fields are you in?
 
-**cognitive psychology**
 cognitive science
+**cognitive psychology**
 data science
 computational social science?
 evolutionary theory
 
 # What is your research focus?
 
-I'm trying to learn something about cultural evolution by using open collaborations (e.g., Wikipedia) as model organisms. I'm interested in separating evolutionary change that is shaped by selection pressures from random change. Do Wikipedia editors select for quality as articles accumulate edits? Can selection guarantee incremental progress in open collaborations?
+I study cultural evolution, specifically the evolution of cultural products like language. Why is language adaptive and what does it afford that nonverbal means of communication do not? Right now I am studying the evolution of Wikipedia articles and the mechanisms of open collaboration more broadly.
 
 # Describe to us your current research team.
 
-I work primarily with Dr. Gary Lupyan in his lab in the Psychology Department at the University of Wisconsin-Madison. The [Telephone project](http://github.com/lupyanlab/telephone-app) is in collaboration with Dr. Marcus Perlman. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition.
+I work primarily with Dr. Gary Lupyan in the Psychology Department at the University of Wisconsin-Madison. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition. I also work with Dr. Marcus Perlman, UC Merced on questions about language evolution.
 
-# Describe to us how open science advances your research.
+# Describe to us how open science advances your research. (100 words)
 
-Open science makes my own research better: more reproducible, more replicable, and more reuseable. Open science is critical for scientific progress in the digital world, where research methods inevitably involve computers. In it's simplest form, I believe open science is the ability to automate the running of an experiment and drawing conclusions from the data with code. Code is the best way scientists have of helping each other out. Writing and sharing code is necessary, but not sufficient for open science, the remaining requirement being the attitude that engaging in open science is the best way to discover truth.
+In it's simplest form, open science is open source. By conducting my research in open source code, my research is more reproducible, more replicable, and more reuseable. Open source allows me to do my research. I can run experiments in-person and online, analyze results using state-of-the-art statistics, and visualize the data all for free. Open source also made me a programmer. Like many others, I learned to read and write code largely outside of the formal classroom. The fact that a large part of my education was free is astounding to me, and speaks to the potential of open science.
 
 # Are you leading any projects related to open science?
 
-I'm interested in what makes open communities work, and one specific hypothesis I have is that version control systems greatly facilitate the progressive evolution of products produced via open collaboration. For example, I have argued that the success of Wikipedia is in large part due to the ability of editors to revert articles to a previous version. As for open scientific collaboration, the most valuable benefit to using version control may be the ability to split a single project into multiple, parallel branches, allowing each to evolve independently and in response to different selection pressures.
+All of my projects relate to open science in that they are open and available for reproduction and extension. I've promoted this aspect of my research by giving tutorials in our department and talks at local user group events. I'm also leading a research project on what makes open communities work. My hypothesis is that iteration is a key mechanism in the success of open collaborations. The idea is that iteration allows the products of collaboration to evolve gradually which may make successful collaborations more likely. Right now I'm studying this among Wikipedia editors; next up is teams of programmers.
 
 # How do you see Mozilla advancing your work?
 
-I'm a cognitive scientist and I like to code too much, which is only a problem because I'm trained to design and run cognitive psychology experiments, not to write code that other people can read. I need more experience collaborating on coding projects and sharing what I've learned.
+I'm a cognitive scientist and I like to code too much, which is only a problem because I'm trained to design and run experiments, not to write code that other people can read. I need more experience collaborating on coding projects and finding the best ways to share my work.
 
 # What do you see as the opportunities for impact around open research at your university? Could you leverage this opportunity in a potential project?
 
@@ -32,11 +32,12 @@ I could organize a workshop at the [Discovery Center](https://discovery.wisc.edu
 
 # What do you think needs to change most immediately in scientific research?
 
-* Honesty and progress need to be valued more than journal names and citations. My strategy is to walk the walk.
-* The print journal model of articles as static needs to be replaced with a more dynamic publication that encourages updates, extensions, and replications.
+* Integrity and contribution need to be valued more than publications and citations.
+* The print journal model of articles as static snapshots needs to be replaced with a more dynamic publication that encourages updates, extensions, and replications.
 * Scientists need to pay attention to data visualization researchers, specifically when it comes to depicting uncertainty.
 * Scientists need to learn the agile philosophy as a strategy for conducting research in teams.
 * Growing a collaboration needs to be seen as more important than being ahead.
+* We could all get a little better at statistics.
 
 # What project in the field do you find most inspiring to further science and the web?
 
