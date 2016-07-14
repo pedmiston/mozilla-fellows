@@ -12,7 +12,7 @@ I study cultural evolution, specifically the evolution of cultural products like
 
 # Describe to us your current research team.
 
-I work primarily with Dr. Gary Lupyan in the Psychology Department at the University of Wisconsin-Madison. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition. I also work with Dr. Marcus Perlman, UC Merced on questions about language evolution.
+I work primarily with my advisor Dr. Gary Lupyan. The lab runs behavioral experiments in person and online, exploring various aspects of the relationship between language and cognition. I also work with Dr. Marcus Perlman, UC Merced on questions about language evolution. Most of my research can be done remotely.
 
 # Describe to us how open science advances your research. (100 words)
 

@@ -3,7 +3,7 @@ all: cover resume
 cover: venn.png cover_letter.pdf
 venn.png: fig/venn/index.html
 	cd fig/venn && ./d3printer
-cover_letter.pdf: cover_letter.md fig/venn.png
+cover_letter.pdf: cover_letter.md style/cover_letter.tex
 	pandoc --standalone --template style/cover_letter.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
