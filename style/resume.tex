@@ -1,3 +1,4 @@
+% Copyright 2016 Pierce Edmiston <github.com/pedmiston>
 % Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
 % Copyright 2014 Mark Szepieniec <http://github.com/mszep>
 %
@@ -25,7 +26,7 @@ $endif$
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
                  backspace=20mm, cutspace=0mm,
-                 topspace=10mm, bottomspace=20mm,
+                 topspace=5mm, bottomspace=5mm,
                  header=0mm, footer=0mm]
 
 %\setuppagenumbering[location={footer,center}]
@@ -78,21 +79,6 @@ $header-includes$
 $endfor$
 
 \starttext
-$if(title)$
-\startalignment[center]
-  \blank[2*big]
-  {\tfd $title$}
-$if(author)$
-  \blank[3*medium]
-  {\tfa $for(author)$$author$$sep$\crlf $endfor$}
-$endif$
-$if(date)$
-  \blank[2*medium]
-  {\tfa $date$}
-$endif$
-  \blank[3*medium]
-\stopalignment
-$endif$
 $for(include-before)$
 $include-before$
 $endfor$
