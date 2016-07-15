@@ -16,7 +16,7 @@ resume.pdf: resume.md
 	--from markdown --to context \
 	-V papersize=A4 \
 	-o resume.tex resume.md; \
-	context resume.tex
+	context --autopdf resume.tex
 
 docx:
 	pandoc --from markdown --to docx -o application.docx application.md

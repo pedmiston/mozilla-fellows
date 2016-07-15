@@ -35,9 +35,6 @@ Publications
 [abstract]: http://evolang.org/neworleans/papers/189.html
 [talk]: http://sapir.psych.wisc.edu/evolang/fidelity.html
 [press]: http://www.sciencemag.org/news/2016/03/buzz-thwack-how-sounds-become-words
-[django]: http://github.com/lupyanlab/telephone
-[ansible]: http://github.com/lupyanlab/telephone-app
-[analyses]: https://github.com/lupyanlab/wordsintransition
 
 * **Edmiston & Lupyan (2015)**. What makes words special? Words as unmotivated cues. _Cognition_, 143, 93-100.
 
@@ -50,7 +47,7 @@ Technical skills
 ----------------
 
 python
-:   I use **python** to run behavioral experiments in-person with **psychopy** and online by building web apps with **Django**. For research duct tape, I use **pandas**.
+:   I use **python** for running experiments in person with **psychopy** and online by building web apps with **Django**. I use **pandas** for research duct tape.
 
 R
 :   I use **R** for data visualization and regression modeling, including hierarchical linear regression with **lme4**. I use a lot of packages in the Hadleyverse, primarily **dplyr** and **ggplot2**.
@@ -64,3 +61,7 @@ plaintext
 ----
 
 > <pedmiston@wisc.edu>
+
+[django]: http://github.com/lupyanlab/telephone
+[ansible]: http://github.com/lupyanlab/telephone-app
+[analyses]: https://github.com/lupyanlab/wordsintransition
