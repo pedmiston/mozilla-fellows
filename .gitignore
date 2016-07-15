@@ -5,6 +5,7 @@
 *.tuc
 
 !style/
+!submission/
 
 # figs
 *.png

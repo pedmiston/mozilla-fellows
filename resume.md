@@ -47,7 +47,7 @@ Technical skills
 ----------------
 
 python
-:   I use **python** for running experiments in person with **psychopy** and online by building web apps with **Django**. I use **pandas** for research duct tape.
+:   I use **python** for running experiments, in-person with **psychopy** and online by building web apps with **Django**. I use **pandas** for research duct tape.
 
 R
 :   I use **R** for data visualization and regression modeling, including hierarchical linear regression with **lme4**. I use a lot of packages in the Hadleyverse, primarily **dplyr** and **ggplot2**.
@@ -61,7 +61,3 @@ plaintext
 ----
 
 > <pedmiston@wisc.edu>
-
-[django]: http://github.com/lupyanlab/telephone
-[ansible]: http://github.com/lupyanlab/telephone-app
-[analyses]: https://github.com/lupyanlab/wordsintransition
