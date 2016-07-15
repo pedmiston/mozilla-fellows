@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colorbrewer": "^1.0.0",
     "d3": "^3.5.17",
     "venn.js": "^0.2.10"
   }

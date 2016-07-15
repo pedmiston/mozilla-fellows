@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-cd fig/venn && ./d3printer && cd ../../
-
-pandoc -o resume.pdf --template=templates/resume.latex resume.md
-pandoc -o cover_letter.pdf cover_letter.md
