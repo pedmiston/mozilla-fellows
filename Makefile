@@ -18,6 +18,9 @@ resume.pdf: resume.md
 	-o resume.tex resume.md; \
 	context resume.tex
 
+docx:
+	pandoc --from markdown --to docx -o application.docx application.md
+
 clean:
 	rm -f *.tex
 	rm -f *.log
