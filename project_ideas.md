@@ -2,6 +2,20 @@
 
 For sprints and beyond. **Warning**: I don't know if these are good ideas.
 
+# git trees
+
+Visualize git histories as interactive data visualizations.
+
+1. Convert a git repository into data for consumption into Neo4j.
+2. Create a Flask app for serving the Neo4j data to a D3 visualization.
+3. Allow D3 interactions to “post” git commands, e.g., perform a merge.
+
+**Learn git the visual way**. git is the steepest learning curve I’ve attempted, and even though I use git for every project I work on, I still only use a small portion of its features. I think being able to demonstrate the capabilities of git in a modern environment would help others learn it.
+
+**Version control by intuition**. Most git commands are easy to depict visually. Branching and merging are visually straightforward even if under the surface git is using any number of different merging algorithms. Depicting more complicated git commands like rebasing and blaming are easy to understand visually when interaction is provided. Rebasing is the convergence of a sequence of commits, and blaming is filtering changes by looking only at a certain line.
+
+**Leave better histories**. Software projects can be some of the more dynamic forms of human collaboration, where everything is subject to change at any moment. Being able to trash any part of a project is exactly what makes software projects dynamic and powerful. Using version control systems intelligently is a key component to all healthy software development. Although version control is often initially seen primarily as a safety net, it can and should be used intelligently to encourage innovation in a team. Leaving cleaner version histories will pay off in the future.
+
 ## wit is git for wiki
 
 MediaWiki has a version control system built into it but some people may prefer to edit wiki pages offline. Once a page is requested, it becomes out of date, and merge conflicts
@@ -19,7 +33,7 @@ distributed development as easily as a version control system like `git`, where
 branching and merging are common operations. `wit` simply adds the features of
 `git` to the existing in-browser version control features of MediaWiki applications.
 
-## Code tree 2.0
+## Code tree
 
 A few years ago I developed an idea for a webapp dedicated to helping people
 learn to code. The site itself wouldn't contain any lessons or tutorials,
@@ -46,8 +60,6 @@ found useful).
 ## Merge-a-thon
 
 It's a bad name. But some alternative to hackathons, intended to be more inviting. There is still competition in merge-a-thons, but it isn't head-to-head or judged.
-
-
 
 I like the idea of distributed problem solving.
 
